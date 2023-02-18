@@ -1,6 +1,6 @@
 {
-  "name": "@pixiv/three-vrm",
-  "version": "1.0.8",
+  "name": "@urth/three-vrm",
+  "version": "1.0.8-three.r148",
   "description": "VRM file loader for three.js.",
   "license": "MIT",
   "author": "pixiv",
@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pixiv/three-vrm.git"
+    "url": "git+https://github.com/pixiv/three-vrm.git"
   },
   "scripts": {
     "version": "yarn all",
@@ -46,21 +46,30 @@
     ]
   },
   "dependencies": {
-    "@pixiv/three-vrm-core": "../three-vrm/packages/three-vrm-core",
-    "@pixiv/three-vrm-materials-hdr-emissive-multiplier": "../three-vrm/packages/three-vrm-materials-hdr-emissive-multiplier",
-    "@pixiv/three-vrm-materials-mtoon": "../three-vrm/packages/three-vrm-materials-mtoon",
-    "@pixiv/three-vrm-materials-v0compat": "../three-vrm/packages/three-vrm-materials-v0compat",
-    "@pixiv/three-vrm-node-constraint": "../three-vrm/packages/three-vrm-node-constraint",
-    "@pixiv/three-vrm-springbone": "../three-vrm/packages/three-vrm-springbone"
+    "@pixiv/three-vrm-core": "npm:@urth/three-vrm-core@1.0.8-three.r148",
+    "@pixiv/three-vrm-materials-hdr-emissive-multiplier": "npm:@urth/three-vrm-materials-hdr-emissive-multiplier@1.0.7-three.r148",
+    "@pixiv/three-vrm-materials-mtoon": "npm:@urth/three-vrm-materials-mtoon@1.0.7-three.r148",
+    "@pixiv/three-vrm-materials-v0compat": "npm:@urth/three-vrm-materials-v0compat@1.0.7-three.r148",
+    "@pixiv/three-vrm-node-constraint": "npm:@urth/three-vrm-node-constraint@1.0.7-three.r148",
+    "@pixiv/three-vrm-springbone": "npm:@urth/three-vrm-springbone@1.0.7-three.r148"
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^15.0.1",
     "lint-staged": "13.0.3",
     "@types/three-r148": "npm:@types/three@^0.148.0",
-    "three-r148": "npm:three@^0.148.0"
+    "three-r148": "npm:@urth/three@^0.148.0"
   },
   "peerDependencies": {
     "@types/three-r148": "npm:@types/three@^0.148.0",
-    "three-r148": "npm:three@^0.148.0"
+    "three-r148": "npm:@urth/three@^0.148.0"
+  },
+  "bugs": {
+    "url": "https://github.com/pixiv/three-vrm/issues"
+  },
+  "homepage": "https://github.com/pixiv/three-vrm#readme",
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "lib": "lib"
   }
 }

@@ -1,6 +1,6 @@
 {
-  "name": "@pixiv/three-vrm-node-constraint",
-  "version": "1.0.7",
+  "name": "@urth/three-vrm-node-constraint",
+  "version": "1.0.7-three.r148",
   "description": "Node constraint module for @pixiv/three-vrm",
   "license": "MIT",
   "author": "pixiv",
@@ -47,10 +47,15 @@
   "devDependencies": {
     "lint-staged": "13.0.3",
     "@types/three-r148": "npm:@types/three@^0.148.0",
-    "three-r148": "npm:three@^0.148.0"
+    "three-r148": "npm:@urth/three@^0.148.0"
   },
   "peerDependencies": {
     "@types/three-r148": "npm:@types/three@^0.148.0",
-    "three-r148": "npm:three@^0.148.0"
+    "three-r148": "npm:@urth/three@^0.148.0"
+  },
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "lib": "lib"
   }
 }

@@ -1,6 +1,6 @@
 {
-  "name": "@pixiv/three-vrm-materials-hdr-emissive-multiplier",
-  "version": "1.0.7",
+  "name": "@urth/three-vrm-materials-hdr-emissive-multiplier",
+  "version": "1.0.7-three.r148",
   "description": "Support VRMC_hdr_emissiveMultiplier for @pixiv/three-vrm",
   "license": "MIT",
   "author": "pixiv",
@@ -45,10 +45,15 @@
   },
   "devDependencies": {
     "@types/three-r148": "npm:@types/three@^0.148.0",
-    "three-r148": "npm:three@^0.148.0"
+    "three-r148": "npm:@urth/three@^0.148.0"
   },
   "peerDependencies": {
     "@types/three-r148": "npm:@types/three@^0.148.0",
-    "three-r148": "npm:three@^0.148.0"
+    "three-r148": "npm:@urth/three@^0.148.0"
+  },
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "lib": "lib"
   }
 }

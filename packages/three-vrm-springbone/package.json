@@ -1,6 +1,6 @@
 {
-  "name": "@pixiv/three-vrm-springbone",
-  "version": "1.0.7",
+  "name": "@urth/three-vrm-springbone",
+  "version": "1.0.7-three.r148",
   "description": "Spring bone module for @pixiv/three-vrm",
   "license": "MIT",
   "author": "pixiv",
@@ -47,9 +47,14 @@
   },
   "devDependencies": {
     "lint-staged": "13.0.3",
-    "three-r148": "npm:three@^0.148.0"
+    "three-r148": "npm:@urth/three@^0.148.0"
   },
   "peerDependencies": {
-    "three-r148": "npm:three@^0.148.0"
+    "three-r148": "npm:@urth/three@^0.148.0"
+  },
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "lib": "lib"
   }
 }
