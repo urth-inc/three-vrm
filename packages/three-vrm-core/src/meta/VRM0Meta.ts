@@ -1,4 +1,4 @@
-import * as THREE from 'three';
+import * as THREE from 'three-r148';
 
 /**
  * Interface represents metadata of a VRM 0.0 model.

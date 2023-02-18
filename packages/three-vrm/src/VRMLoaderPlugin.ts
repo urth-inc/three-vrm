@@ -1,5 +1,5 @@
-import * as THREE from 'three';
-import { GLTF, GLTFLoaderPlugin, GLTFParser } from 'three/examples/jsm/loaders/GLTFLoader.js';
+import * as THREE from 'three-r148';
+import { GLTF, GLTFLoaderPlugin, GLTFParser } from 'three-r148/examples/jsm/loaders/GLTFLoader.js';
 import {
   VRMExpressionLoaderPlugin,
   VRMFirstPersonLoaderPlugin,

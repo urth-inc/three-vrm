@@ -1,6 +1,6 @@
 // See: https://threejs.org/docs/#manual/en/introduction/How-to-dispose-of-objects
 
-import * as THREE from 'three';
+import * as THREE from 'three-r148';
 
 function disposeMaterial(material: THREE.Material): void {
   Object.values(material).forEach((value) => {

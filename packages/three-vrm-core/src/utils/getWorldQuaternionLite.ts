@@ -1,4 +1,4 @@
-import * as THREE from 'three';
+import * as THREE from 'three-r148';
 
 const _position = new THREE.Vector3();
 const _scale = new THREE.Vector3();

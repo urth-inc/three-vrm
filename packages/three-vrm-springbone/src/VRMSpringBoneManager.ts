@@ -1,4 +1,4 @@
-import type * as THREE from 'three';
+import type * as THREE from 'three-r148';
 import type { VRMSpringBoneJoint } from './VRMSpringBoneJoint';
 import { traverseAncestorsFromRoot } from './utils/traverseAncestorsFromRoot';
 import type { VRMSpringBoneCollider } from './VRMSpringBoneCollider';

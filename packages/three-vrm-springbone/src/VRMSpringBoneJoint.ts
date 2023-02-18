@@ -1,4 +1,4 @@
-import * as THREE from 'three';
+import * as THREE from 'three-r148';
 import { mat4InvertCompat } from './utils/mat4InvertCompat';
 import { Matrix4InverseCache } from './utils/Matrix4InverseCache';
 import type { VRMSpringBoneColliderGroup } from './VRMSpringBoneColliderGroup';

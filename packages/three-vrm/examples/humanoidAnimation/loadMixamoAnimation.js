@@ -1,4 +1,4 @@
-import * as THREE from 'three';
+import * as THREE from 'three-r148';
 import { FBXLoader } from 'three/addons/loaders/FBXLoader.js';
 import { mixamoVRMRigMap } from './mixamoVRMRigMap.js';
 

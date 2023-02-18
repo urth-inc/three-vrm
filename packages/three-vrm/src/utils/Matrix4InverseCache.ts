@@ -1,4 +1,4 @@
-import * as THREE from 'three';
+import * as THREE from 'three-r148';
 import { mat4InvertCompat } from './mat4InvertCompat';
 
 export class Matrix4InverseCache {

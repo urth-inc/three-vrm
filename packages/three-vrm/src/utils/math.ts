@@ -1,4 +1,4 @@
-import * as THREE from 'three';
+import * as THREE from 'three-r148';
 
 /**
  * Clamp an input number within [ `0.0` - `1.0` ].

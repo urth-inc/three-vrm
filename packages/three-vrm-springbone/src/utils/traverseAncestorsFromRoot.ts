@@ -1,4 +1,4 @@
-import type * as THREE from 'three';
+import type * as THREE from 'three-r148';
 
 export function traverseAncestorsFromRoot(object: THREE.Object3D, callback: (object: THREE.Object3D) => void): void {
   const ancestors: THREE.Object3D[] = [];

@@ -1,4 +1,4 @@
-import * as THREE from 'three';
+import * as THREE from 'three-r148';
 
 /**
  * Traverse given object and remove unnecessarily bound joints from every `THREE.SkinnedMesh`.

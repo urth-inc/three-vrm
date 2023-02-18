@@ -1,4 +1,4 @@
-import * as THREE from 'three';
+import * as THREE from 'three-r148';
 import { VRMSpringBoneJoint } from '../VRMSpringBoneJoint';
 import { SpringBoneBufferGeometry } from './utils/SpringBoneBufferGeometry';
 

@@ -1,4 +1,4 @@
-import type * as THREE from 'three';
+import type * as THREE from 'three-r148';
 
 /**
  * Traverse ancestors of given object and call given callback from root side.

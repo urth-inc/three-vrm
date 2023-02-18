@@ -1,4 +1,4 @@
-import * as THREE from 'three';
+import * as THREE from 'three-r148';
 import { VRMExpressionManager } from './expressions/VRMExpressionManager';
 import { VRMFirstPerson } from './firstPerson/VRMFirstPerson';
 import { VRMHumanoid } from './humanoid/VRMHumanoid';

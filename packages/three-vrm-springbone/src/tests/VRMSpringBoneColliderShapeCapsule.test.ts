@@ -1,6 +1,6 @@
 /* eslint-env jest */
 
-import * as THREE from 'three';
+import * as THREE from 'three-r148';
 import { VRMSpringBoneColliderShapeCapsule } from '../VRMSpringBoneColliderShapeCapsule';
 import { toBeCloseToArray } from './matchers/toBeCloseToArray';
 import { toBeCloseToVector3 } from './matchers/toBeCloseToVector3';

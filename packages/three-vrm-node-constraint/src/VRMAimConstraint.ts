@@ -1,4 +1,4 @@
-import * as THREE from 'three';
+import * as THREE from 'three-r148';
 import { decomposePosition } from './utils/decomposePosition';
 import { decomposeRotation } from './utils/decomposeRotation';
 import { quatInvertCompat } from './utils/quatInvertCompat';

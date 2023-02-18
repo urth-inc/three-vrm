@@ -1,5 +1,5 @@
 import { VRMHumanoid } from '../humanoid';
-import * as THREE from 'three';
+import * as THREE from 'three-r148';
 import type { VRMLookAtApplier } from './VRMLookAtApplier';
 import { VRMLookAtRangeMap } from './VRMLookAtRangeMap';
 import { calcAzimuthAltitude } from './utils/calcAzimuthAltitude';

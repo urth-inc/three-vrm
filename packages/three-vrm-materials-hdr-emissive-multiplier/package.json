@@ -44,11 +44,11 @@
     "@pixiv/types-vrmc-materials-hdr-emissive-multiplier-1.0": "1.0.0"
   },
   "devDependencies": {
-    "@types/three": "^0.148.0",
-    "three": "^0.148.0"
+    "@types/three-r148": "npm:@types/three@^0.148.0",
+    "three-r148": "npm:three@^0.148.0"
   },
   "peerDependencies": {
-    "@types/three": "^0.148.0",
-    "three": "^0.148.0"
+    "@types/three-r148": "npm:@types/three@^0.148.0",
+    "three-r148": "npm:three@^0.148.0"
   }
 }

@@ -1,4 +1,4 @@
-import * as THREE from 'three';
+import * as THREE from 'three-r148';
 
 function quatToString(quat: THREE.Quaternion): string {
   return `Quaternion(${quat.x.toFixed(3)}, ${quat.y.toFixed(3)}, ${quat.z.toFixed(3)}; ${quat.w.toFixed(3)})`;

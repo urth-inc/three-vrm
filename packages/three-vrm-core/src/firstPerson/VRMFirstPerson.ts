@@ -1,5 +1,5 @@
 import type { VRMFirstPersonMeshAnnotation } from './VRMFirstPersonMeshAnnotation';
-import * as THREE from 'three';
+import * as THREE from 'three-r148';
 import type { VRMHumanoid } from '../humanoid';
 
 export class VRMFirstPerson {

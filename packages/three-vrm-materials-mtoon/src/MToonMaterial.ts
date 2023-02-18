@@ -1,6 +1,6 @@
 /* tslint:disable:member-ordering */
 
-import * as THREE from 'three';
+import * as THREE from 'three-r148';
 import vertexShader from './shaders/mtoon.vert';
 import fragmentShader from './shaders/mtoon.frag';
 import { MToonMaterialDebugMode } from './MToonMaterialDebugMode';

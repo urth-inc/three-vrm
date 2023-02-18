@@ -1,5 +1,5 @@
-import * as THREE from 'three';
-import { GLTFParser } from 'three/examples/jsm/loaders/GLTFLoader.js';
+import * as THREE from 'three-r148';
+import { GLTFParser } from 'three-r148/examples/jsm/loaders/GLTFLoader.js';
 
 /**
  * Get a material definition index of glTF from associated material.

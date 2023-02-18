@@ -1,4 +1,4 @@
-import * as THREE from 'three';
+import * as THREE from 'three-r148';
 import { VRMHumanBoneName, VRMHumanBoneParentMap, VRMHumanBones, VRMHumanoid } from '../../humanoid';
 import { VRMLookAtBoneApplier } from '../VRMLookAtBoneApplier';
 import { VRMLookAtRangeMap } from '../VRMLookAtRangeMap';

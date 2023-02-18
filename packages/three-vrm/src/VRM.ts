@@ -1,4 +1,4 @@
-import * as THREE from 'three';
+import * as THREE from 'three-r148';
 import { VRMCore } from '@pixiv/three-vrm-core';
 import { VRMNodeConstraintManager } from '@pixiv/three-vrm-node-constraint';
 import { VRMSpringBoneManager } from '@pixiv/three-vrm-springbone';

@@ -54,7 +54,7 @@ Code like this:
 </script>
 
 <script type="module">
-  import * as THREE from 'three';
+  import * as THREE from 'three-r148';
   import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
   import { VRMLoaderPlugin } from '@pixiv/three-vrm';
 
@@ -103,8 +103,8 @@ npm install three @pixiv/three-vrm
 Code like this:
 
 ```javascript
-import * as THREE from 'three';
-import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
+import * as THREE from 'three-r148';
+import { GLTFLoader } from 'three-r148/examples/jsm/loaders/GLTFLoader';
 import { VRMLoaderPlugin } from '@pixiv/three-vrm';
 
 const scene = new THREE.Scene();

@@ -46,21 +46,21 @@
     ]
   },
   "dependencies": {
-    "@pixiv/three-vrm-core": "1.0.8",
-    "@pixiv/three-vrm-materials-hdr-emissive-multiplier": "1.0.7",
-    "@pixiv/three-vrm-materials-mtoon": "1.0.7",
-    "@pixiv/three-vrm-materials-v0compat": "1.0.7",
-    "@pixiv/three-vrm-node-constraint": "1.0.7",
-    "@pixiv/three-vrm-springbone": "1.0.7"
+    "@pixiv/three-vrm-core": "../three-vrm/packages/three-vrm-core",
+    "@pixiv/three-vrm-materials-hdr-emissive-multiplier": "../three-vrm/packages/three-vrm-materials-hdr-emissive-multiplier",
+    "@pixiv/three-vrm-materials-mtoon": "../three-vrm/packages/three-vrm-materials-mtoon",
+    "@pixiv/three-vrm-materials-v0compat": "../three-vrm/packages/three-vrm-materials-v0compat",
+    "@pixiv/three-vrm-node-constraint": "../three-vrm/packages/three-vrm-node-constraint",
+    "@pixiv/three-vrm-springbone": "../three-vrm/packages/three-vrm-springbone"
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^15.0.1",
-    "@types/three": "^0.148.0",
     "lint-staged": "13.0.3",
-    "three": "^0.148.0"
+    "@types/three-r148": "npm:@types/three@^0.148.0",
+    "three-r148": "npm:three@^0.148.0"
   },
   "peerDependencies": {
-    "@types/three": "^0.148.0",
-    "three": "^0.148.0"
+    "@types/three-r148": "npm:@types/three@^0.148.0",
+    "three-r148": "npm:three@^0.148.0"
   }
 }

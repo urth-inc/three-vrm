@@ -1,4 +1,4 @@
-import * as THREE from 'three';
+import * as THREE from 'three-r148';
 import { VRMNodeConstraint } from '../VRMNodeConstraint';
 
 const _v3A = new THREE.Vector3();

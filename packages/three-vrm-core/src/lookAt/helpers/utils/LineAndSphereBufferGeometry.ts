@@ -1,4 +1,4 @@
-import * as THREE from 'three';
+import * as THREE from 'three-r148';
 
 export class LineAndSphereBufferGeometry extends THREE.BufferGeometry {
   public radius: number;

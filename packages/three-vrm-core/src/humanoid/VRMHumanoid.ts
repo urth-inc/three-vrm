@@ -1,4 +1,4 @@
-import * as THREE from 'three';
+import * as THREE from 'three-r148';
 import type { VRMHumanBone } from './VRMHumanBone';
 import type { VRMHumanBones } from './VRMHumanBones';
 import type { VRMHumanBoneName } from './VRMHumanBoneName';

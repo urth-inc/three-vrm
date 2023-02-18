@@ -1,4 +1,4 @@
-import * as THREE from 'three';
+import * as THREE from 'three-r148';
 import { VRMLookAt } from '../VRMLookAt';
 import { FanBufferGeometry } from './utils/FanBufferGeometry';
 import { LineAndSphereBufferGeometry } from './utils/LineAndSphereBufferGeometry';

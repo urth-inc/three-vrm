@@ -1,5 +1,5 @@
-import * as THREE from 'three';
-import { BufferAttribute } from 'three';
+import * as THREE from 'three-r148';
+import { BufferAttribute } from 'three-r148';
 
 /**
  * Traverse given object and remove unnecessary vertices from every BufferGeometries.

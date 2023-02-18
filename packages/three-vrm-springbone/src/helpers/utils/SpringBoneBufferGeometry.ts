@@ -1,4 +1,4 @@
-import * as THREE from 'three';
+import * as THREE from 'three-r148';
 import { VRMSpringBoneJoint } from '../../VRMSpringBoneJoint';
 
 export class SpringBoneBufferGeometry extends THREE.BufferGeometry {

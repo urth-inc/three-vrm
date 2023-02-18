@@ -1,4 +1,4 @@
-import * as THREE from 'three';
+import * as THREE from 'three-r148';
 import { VRMSpringBoneColliderShapeCapsule } from '../../VRMSpringBoneColliderShapeCapsule';
 import { ColliderShapeBufferGeometry } from './ColliderShapeBufferGeometry';
 

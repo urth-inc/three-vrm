@@ -1,4 +1,4 @@
-import * as THREE from 'three';
+import * as THREE from 'three-r148';
 import { VRMSpringBoneColliderShape } from './VRMSpringBoneColliderShape';
 
 export class VRMSpringBoneColliderShapeSphere extends VRMSpringBoneColliderShape {

@@ -1,4 +1,4 @@
-import * as THREE from 'three';
+import * as THREE from 'three-r148';
 
 /**
  * A compat function for `Quaternion.invert()` / `Quaternion.inverse()`.

@@ -1,4 +1,4 @@
-import * as THREE from 'three';
+import * as THREE from 'three-r148';
 import { VRMHumanoid } from '../humanoid';
 import { getWorldQuaternionLite } from '../utils/getWorldQuaternionLite';
 import { quatInvertCompat } from '../utils/quatInvertCompat';

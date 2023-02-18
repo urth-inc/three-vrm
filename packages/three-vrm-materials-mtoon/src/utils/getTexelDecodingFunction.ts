@@ -1,4 +1,4 @@
-import * as THREE from 'three';
+import * as THREE from 'three-r148';
 
 // Since these constants are deleted in r136 we have to define by ourselves
 /* eslint-disable @typescript-eslint/naming-convention */
