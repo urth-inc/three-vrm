@@ -1,6 +1,6 @@
 {
-  "name": "@pixiv/three-vrm",
-  "version": "1.0.2",
+  "name": "@urth/three-vrm",
+  "version": "1.0.2-three.r141-2",
   "description": "VRM file loader for three.js.",
   "license": "MIT",
   "author": "pixiv",
@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pixiv/three-vrm.git"
+    "url": "git+https://github.com/pixiv/three-vrm.git"
   },
   "scripts": {
     "version": "yarn all",
@@ -46,12 +46,12 @@
     ]
   },
   "dependencies": {
-    "@pixiv/three-vrm-core": "1.0.1",
-    "@pixiv/three-vrm-materials-hdr-emissive-multiplier": "1.0.0",
-    "@pixiv/three-vrm-materials-mtoon": "1.0.0",
-    "@pixiv/three-vrm-materials-v0compat": "1.0.2",
-    "@pixiv/three-vrm-node-constraint": "1.0.0",
-    "@pixiv/three-vrm-springbone": "1.0.0"
+    "@urth/three-vrm-core": "1.0.1-three.r141",
+    "@urth/three-vrm-materials-hdr-emissive-multiplier": "1.0.0-three.r141",
+    "@urth/three-vrm-materials-mtoon": "1.0.0-three.r141",
+    "@urth/three-vrm-materials-v0compat": "1.0.2-three.r141",
+    "@urth/three-vrm-node-constraint": "1.0.0-three.r141",
+    "@urth/three-vrm-springbone": "1.0.0-three.r141"
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^13.0.0",
@@ -62,5 +62,13 @@
   "peerDependencies": {
     "@types/three": "^0.141.0",
     "three": "^0.141.0"
+  },
+  "bugs": {
+    "url": "https://github.com/pixiv/three-vrm/issues"
+  },
+  "homepage": "https://github.com/pixiv/three-vrm#readme",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
   }
 }

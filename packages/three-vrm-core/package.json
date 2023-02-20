@@ -1,6 +1,6 @@
 {
-  "name": "@pixiv/three-vrm-core",
-  "version": "1.0.1",
+  "name": "@urth/three-vrm-core",
+  "version": "1.0.1-three.r141",
   "description": "The implementation of core features of VRM, for @pixiv/three-vrm",
   "license": "MIT",
   "author": "pixiv",
@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pixiv/three-vrm.git"
+    "url": "git+https://github.com/pixiv/three-vrm.git"
   },
   "scripts": {
     "version": "yarn all",
@@ -57,5 +57,13 @@
   "peerDependencies": {
     "@types/three": "^0.141.0",
     "three": "^0.141.0"
+  },
+  "bugs": {
+    "url": "https://github.com/pixiv/three-vrm/issues"
+  },
+  "homepage": "https://github.com/pixiv/three-vrm#readme",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
   }
 }
